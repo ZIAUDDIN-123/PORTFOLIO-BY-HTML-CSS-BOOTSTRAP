@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+{% block content   %}
+{% load static %}
+<div class="about_container">
+  <div class="container" >
+    <div class="row align_items_center justify-content-center py-5">
+     <div class="col-md-5 ">  
+       <img src= "{% static "images/jisan-photo.png" %}" class="img-fluid rounded-circle  border border-dark" >
+     </div>
+
+      <div class="col-md-7 my-6 py-4 ", id="k" >
+        <div id="j"> 
+            <h4 class="d-flex justify justify-content-center"><u><b> Short Intruduction </b></u></h4>
+              <pre class="d-flex justify justify-content-left"> 
+               Name         : MD. ZIA UDDIN JISAN
+               Father's Name: Md.Firoz UDDIN 
+               Mother's Name: Johora Begum
+               Address      : Kuchaitoly , Cumilla
+               Mobile No    : 01690082661 </pre>
+        </div> 
+      </div>
+    </div>
+{% comment %} </div>
+
+</div> {% endcomment %}
+<div class="row">
+  <div class="col-md-12 my-5", id="k">
+    <h4 class="d-flex justify justify-content-center"><b> About me</b> </h4>
+    <p>{% lorem 2 p random %}</p>
+
+
+  </div>  
+</div>  
+
+
+<div> <h4 align="center"> <b>Institutions</b> </h4></div>
+
+
+<div class="row">
+  
+
+<div class="col-md-4 py-3"  >
+  <div class="card mb-3">
+    <img class="card-img-top" src="{% static "images/ibn.jpg" %}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">School</h5>
+      <pre class="card-text" >
+        School Name: Ibne taimia School
+        Group: Science
+        SSC passing year: 2015
+        SSC GPA: 5
+  
+        </pre>
+     
+    </div>
+  </div>
+  
+</div> 
+<div class="col-md-4 py-3" >
+  <div class="card mb-3">
+    <img class="card-img-top" src="{% static "images/cgc.jpg" %}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">College</h5>
+      <pre class="card-text" >
+        College Name: Cumilla Gov. college
+        Group: Science
+        SSC passing year: 2017
+        HSC GPA: 4
+  
+        </pre>
+     
+    </div>
+  </div>
+  
+
+</div> 
+<div class="col-md-4 py-3" >
+
+  <div class="card mb-3">
+    <img class="card-img-top" src="{% static "images/diu.jpg" %}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">University</h5>
+      <pre class="card-text" >
+      University Name: Daffodil International university
+      BSc in Computer Science and Engineering
+      BSc Passing Year: 2022
+      CGPA:
+      </pre>
+      
+     
+    </div>
+  </div>
+  
+
+</div> 
+
+
+
+
+
+
+</div>
+</div>
+
+</div>
+{% endblock content  %}
+

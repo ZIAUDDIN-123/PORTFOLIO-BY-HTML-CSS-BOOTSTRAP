@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content   %}
+{% load static %}
+{% comment %} full section is one row, then middle fornt is column in this row {% endcomment %}
+<section class="banner_container container-fluid row vh-100  css_section " style="background-image: url({% static 'images/jisan_home.jpg' %});">
+
+{% comment %} <div class="row vh-100">     {% endcomment %}
+<div class="col-md-7  m-auto  banner-column  border border-light" data-aos="fade-right">
+
+<h2 class="h  display-4 text-white font-weight-bold"> Hi! i am Zia Uddin jisan</h2> 
+<h4 class="h display-6"> Computer Science and Engineering </h4>   
+</div>        
+      
+</div>
+</section>
+
+
+{% endblock content  %} 

@@ -1,0 +1,52 @@
+    #j {
+        color: solid black;
+        font-size: 20px;
+    }
+    
+    #k {
+        box-shadow: 5px 5px 5px 5px gray;
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .banner-column {
+        background-color: rgb(0, 0, 0);
+        opacity: 0.5;
+        /* margin-top: 170px;
+    margin-left: 180px; */
+    }
+    
+    .h {
+        color: whitesmoke;
+        text-align: center;
+    }
+    
+    .banner_container {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .css_section {
+        height: auto;
+        position: relative;
+        min-height: 100vh;
+    }
+    /* footer */
+    
+    .footer {
+        background-color: rgb(2, 21, 39);
+    }
+    
+    .circle {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: inline-block;
+        background-color: white;
+        font-size: 40px;
+        text-align: center;
+    }
